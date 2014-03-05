@@ -14,7 +14,7 @@ class Todo
 		    delete
 		  when "add", "a", "+"
 		    error(:task) if @arg.nil?
-		    add(arg)
+		    add(@arg)
 		  when "remove", "rm", "r", "-"
 		    error(:task) if @arg.nil?
 		    remove(@arg)

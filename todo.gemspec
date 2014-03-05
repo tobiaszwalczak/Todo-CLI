@@ -6,15 +6,15 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Tobiasz Walczak"]
   s.email       = ["tobiaszwalczak@gmail.com"]
-  s.homepage    = "http://github.com/tobiaszwalczak/Todo-CLI/"
-  s.summary     = %q{TODO: A little command line todo app.}
-  s.description = %q{TODO: Todo-CLI is a little command line app written in ruby which, creates a TODO file in your working directory and also populates it.}
-  s.license       = "MIT"
+  s.homepage    = "https://github.com/tobiaszwalczak/Todo-CLI/"
+  s.summary     = %q{A little command line todo app.}
+  #s.description = %q{Todo-CLI is a little command line app written in ruby which, creates a TODO file in your working directory and also populates it.}
+  s.license     = "MIT"
 
   s.add_runtime_dependency "rainbow"
   s.add_development_dependency "rspec"
 
-  s.files         = Dir["lib/*.rb"] + Dir["lib/todo/.rb"] + Dir["bin/*"]
+  s.files         = Dir["lib/*.rb"] + Dir["lib/todo/*.rb"] + Dir["bin/*"]
   s.executables   = ["todo"]
   s.require_paths = ["lib"]
 end
