@@ -1,0 +1,12 @@
+#!/usr/bin/ruby
+
+require "todo"
+
+require "bundler"
+Bundler.require
+
+cmd = ARGV[0]
+arg = ARGV[1]
+
+app = Todo.new cmd, arg
+app.start

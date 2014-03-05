@@ -66,7 +66,6 @@ def delete
   else
     error(:nofile)
   end
-
 end
 
 def add (task)
