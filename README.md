@@ -2,7 +2,7 @@
 
 #### What is this?
 
-Todo-CLI is a little command line app written in ruby which, creates a TODO file
+Todo-CLI is a little command line app, written in ruby, which creates a TODO file
 in your working directory and also populates it.
 
 #### How can i get it?
